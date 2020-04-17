@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B0F91BA243B221700CA5394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F91B9243B221700CA5394 /* AppDelegate.swift */; };
+		1B0F91C1243B221700CA5394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0F91BF243B221700CA5394 /* Main.storyboard */; };
+		1B0F91C4243B221700CA5394 /* InventoryManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F91C2243B221700CA5394 /* InventoryManagement.xcdatamodeld */; };
+		1B0F91C6243B221C00CA5394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B0F91C5243B221C00CA5394 /* Assets.xcassets */; };
+		1B0F91C9243B221C00CA5394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0F91C7243B221C00CA5394 /* LaunchScreen.storyboard */; };
+		1B0F91D6243B4CDB00CA5394 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F91D5243B4CDB00CA5394 /* DatabaseHandler.swift */; };
+		1B0F91D8243B50AA00CA5394 /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F91D7243B50AA00CA5394 /* AddCategoryViewController.swift */; };
+		1B0F91DA243B527400CA5394 /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F91D9243B527400CA5394 /* CategoryListViewController.swift */; };
+		1B0F91DC243B572800CA5394 /* CurrencyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F91DB243B572800CA5394 /* CurrencyListViewController.swift */; };
+		1B0F91DE243B574800CA5394 /* AddCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F91DD243B574800CA5394 /* AddCurrencyViewController.swift */; };
+		1B0F91E1243B606300CA5394 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0F91E0243B606300CA5394 /* CustomError.swift */; };
+		1B6858A0243DA5610020DDB2 /* SellListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68589F243DA5610020DDB2 /* SellListViewController.swift */; };
+		1BA1654D243C4F0900FBD56B /* ItemListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1654C243C4F0900FBD56B /* ItemListViewController.swift */; };
+		1BA1654F243C558500FBD56B /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA1654E243C558500FBD56B /* AddItemViewController.swift */; };
+		1BA16552243C7E2600FBD56B /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA16551243C7E2600FBD56B /* UIViewController+Extensions.swift */; };
+		1BA16555243CA5EB00FBD56B /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA16554243CA5EB00FBD56B /* ItemTableViewCell.swift */; };
+		1BA16557243CB2E100FBD56B /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA16556243CB2E100FBD56B /* ImagePreviewViewController.swift */; };
+		60BDBCF28CE03182729BC8D9 /* Pods_InventoryManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30DEA68249065C8F6D9ED53 /* Pods_InventoryManagement.framework */; };
+		F1136BD42448C39E00A59631 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1136BD32448C39E00A59631 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B0F91B6243B221700CA5394 /* Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B0F91B9243B221700CA5394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B0F91C0243B221700CA5394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B0F91C3243B221700CA5394 /* InventoryManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InventoryManagement.xcdatamodel; sourceTree = "<group>"; };
+		1B0F91C5243B221C00CA5394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = InventoryManagement/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		1B0F91C8243B221C00CA5394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B0F91CA243B221C00CA5394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0F91D5243B4CDB00CA5394 /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		1B0F91D7243B50AA00CA5394 /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		1B0F91D9243B527400CA5394 /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		1B0F91DB243B572800CA5394 /* CurrencyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListViewController.swift; sourceTree = "<group>"; };
+		1B0F91DD243B574800CA5394 /* AddCurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCurrencyViewController.swift; sourceTree = "<group>"; };
+		1B0F91E0243B606300CA5394 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		1B68589F243DA5610020DDB2 /* SellListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellListViewController.swift; sourceTree = "<group>"; };
+		1BA1654C243C4F0900FBD56B /* ItemListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewController.swift; sourceTree = "<group>"; };
+		1BA1654E243C558500FBD56B /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		1BA16551243C7E2600FBD56B /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		1BA16554243CA5EB00FBD56B /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		1BA16556243CB2E100FBD56B /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
+		1D8DBCEB411FE2F4805EEA77 /* Pods-InventoryManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventoryManagement.debug.xcconfig"; path = "Target Support Files/Pods-InventoryManagement/Pods-InventoryManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		BC796C1B6A1DCC2F94CF5948 /* Pods-InventoryManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventoryManagement.release.xcconfig"; path = "Target Support Files/Pods-InventoryManagement/Pods-InventoryManagement.release.xcconfig"; sourceTree = "<group>"; };
+		C30DEA68249065C8F6D9ED53 /* Pods_InventoryManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InventoryManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1136BD32448C39E00A59631 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B0F91B3243B221700CA5394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BDBCF28CE03182729BC8D9 /* Pods_InventoryManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0F91AD243B221700CA5394 = {
+			isa = PBXGroup;
+			children = (
+				1B0F91B8243B221700CA5394 /* InventoryManagement */,
+				1B0F91B7243B221700CA5394 /* Products */,
+				DE8080C2A9A90CEA200F71AF /* Pods */,
+				78A8A8FBDDA05002876F54D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B0F91B7243B221700CA5394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B0F91B6243B221700CA5394 /* Inventory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B0F91B8243B221700CA5394 /* InventoryManagement */ = {
+			isa = PBXGroup;
+			children = (
+				1BA16550243C7DFF00FBD56B /* Extensions */,
+				1B0F91DF243B605400CA5394 /* Support */,
+				1B0F91D4243B227500CA5394 /* Database */,
+				1B0F91D3243B226000CA5394 /* Resources */,
+				1B0F91D2243B225800CA5394 /* UserInterfaces */,
+				1B0F91D1243B224F00CA5394 /* ViewControllers */,
+				1B0F91D0243B223B00CA5394 /* Application */,
+				F1136BD32448C39E00A59631 /* Images.xcassets */,
+			);
+			path = InventoryManagement;
+			sourceTree = "<group>";
+		};
+		1B0F91D0243B223B00CA5394 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1B0F91CA243B221C00CA5394 /* Info.plist */,
+				1B0F91B9243B221700CA5394 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1B0F91D1243B224F00CA5394 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BA16553243CA5D200FBD56B /* Custom Cells */,
+				1BA1654C243C4F0900FBD56B /* ItemListViewController.swift */,
+				1BA1654E243C558500FBD56B /* AddItemViewController.swift */,
+				1B0F91D9243B527400CA5394 /* CategoryListViewController.swift */,
+				1B0F91D7243B50AA00CA5394 /* AddCategoryViewController.swift */,
+				1B0F91DB243B572800CA5394 /* CurrencyListViewController.swift */,
+				1B0F91DD243B574800CA5394 /* AddCurrencyViewController.swift */,
+				1BA16556243CB2E100FBD56B /* ImagePreviewViewController.swift */,
+				1B68589F243DA5610020DDB2 /* SellListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1B0F91D2243B225800CA5394 /* UserInterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				1B0F91BF243B221700CA5394 /* Main.storyboard */,
+				1B0F91C7243B221C00CA5394 /* LaunchScreen.storyboard */,
+			);
+			path = UserInterfaces;
+			sourceTree = "<group>";
+		};
+		1B0F91D3243B226000CA5394 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B0F91C5243B221C00CA5394 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B0F91D4243B227500CA5394 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				1B0F91C2243B221700CA5394 /* InventoryManagement.xcdatamodeld */,
+				1B0F91D5243B4CDB00CA5394 /* DatabaseHandler.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		1B0F91DF243B605400CA5394 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1B0F91E0243B606300CA5394 /* CustomError.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		1BA16550243C7DFF00FBD56B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1BA16551243C7E2600FBD56B /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1BA16553243CA5D200FBD56B /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1BA16554243CA5EB00FBD56B /* ItemTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		78A8A8FBDDA05002876F54D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C30DEA68249065C8F6D9ED53 /* Pods_InventoryManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE8080C2A9A90CEA200F71AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D8DBCEB411FE2F4805EEA77 /* Pods-InventoryManagement.debug.xcconfig */,
+				BC796C1B6A1DCC2F94CF5948 /* Pods-InventoryManagement.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B0F91B5243B221700CA5394 /* InventoryManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0F91CD243B221C00CA5394 /* Build configuration list for PBXNativeTarget "InventoryManagement" */;
+			buildPhases = (
+				A4903A2DC319BFA6BC222233 /* [CP] Check Pods Manifest.lock */,
+				1B0F91B2243B221700CA5394 /* Sources */,
+				1B0F91B3243B221700CA5394 /* Frameworks */,
+				1B0F91B4243B221700CA5394 /* Resources */,
+				5C2624ED7671508ABA4E3FEA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InventoryManagement;
+			productName = InventoryManagement;
+			productReference = 1B0F91B6243B221700CA5394 /* Inventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B0F91AE243B221700CA5394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Reynaldo Miranda";
+				TargetAttributes = {
+					1B0F91B5243B221700CA5394 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 1B0F91B1243B221700CA5394 /* Build configuration list for PBXProject "InventoryManagement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B0F91AD243B221700CA5394;
+			productRefGroup = 1B0F91B7243B221700CA5394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B0F91B5243B221700CA5394 /* InventoryManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B0F91B4243B221700CA5394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B0F91C9243B221C00CA5394 /* LaunchScreen.storyboard in Resources */,
+				F1136BD42448C39E00A59631 /* Images.xcassets in Resources */,
+				1B0F91C6243B221C00CA5394 /* Assets.xcassets in Resources */,
+				1B0F91C1243B221700CA5394 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C2624ED7671508ABA4E3FEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InventoryManagement/Pods-InventoryManagement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InventoryManagement/Pods-InventoryManagement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InventoryManagement/Pods-InventoryManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4903A2DC319BFA6BC222233 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InventoryManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B0F91B2243B221700CA5394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6858A0243DA5610020DDB2 /* SellListViewController.swift in Sources */,
+				1BA1654D243C4F0900FBD56B /* ItemListViewController.swift in Sources */,
+				1B0F91DC243B572800CA5394 /* CurrencyListViewController.swift in Sources */,
+				1B0F91D8243B50AA00CA5394 /* AddCategoryViewController.swift in Sources */,
+				1B0F91DA243B527400CA5394 /* CategoryListViewController.swift in Sources */,
+				1BA16555243CA5EB00FBD56B /* ItemTableViewCell.swift in Sources */,
+				1B0F91BA243B221700CA5394 /* AppDelegate.swift in Sources */,
+				1BA1654F243C558500FBD56B /* AddItemViewController.swift in Sources */,
+				1BA16552243C7E2600FBD56B /* UIViewController+Extensions.swift in Sources */,
+				1B0F91E1243B606300CA5394 /* CustomError.swift in Sources */,
+				1B0F91DE243B574800CA5394 /* AddCurrencyViewController.swift in Sources */,
+				1B0F91C4243B221700CA5394 /* InventoryManagement.xcdatamodeld in Sources */,
+				1BA16557243CB2E100FBD56B /* ImagePreviewViewController.swift in Sources */,
+				1B0F91D6243B4CDB00CA5394 /* DatabaseHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B0F91BF243B221700CA5394 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B0F91C0243B221700CA5394 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B0F91C7243B221C00CA5394 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B0F91C8243B221C00CA5394 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B0F91CB243B221C00CA5394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B0F91CC243B221C00CA5394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B0F91CE243B221C00CA5394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8DBCEB411FE2F4805EEA77 /* Pods-InventoryManagement.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4LKK97ATB;
+				ENABLE_TESTABILITY = NO;
+				INFOPLIST_FILE = InventoryManagement/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.rey.InventoryManagement;
+				PRODUCT_NAME = Inventory;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1B0F91CF243B221C00CA5394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC796C1B6A1DCC2F94CF5948 /* Pods-InventoryManagement.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H3T6MSK6T;
+				INFOPLIST_FILE = InventoryManagement/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ios.rey.InventoryManagement;
+				PRODUCT_NAME = Inventory;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B0F91B1243B221700CA5394 /* Build configuration list for PBXProject "InventoryManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0F91CB243B221C00CA5394 /* Debug */,
+				1B0F91CC243B221C00CA5394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B0F91CD243B221C00CA5394 /* Build configuration list for PBXNativeTarget "InventoryManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B0F91CE243B221C00CA5394 /* Debug */,
+				1B0F91CF243B221C00CA5394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B0F91C2243B221700CA5394 /* InventoryManagement.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B0F91C3243B221700CA5394 /* InventoryManagement.xcdatamodel */,
+			);
+			currentVersion = 1B0F91C3243B221700CA5394 /* InventoryManagement.xcdatamodel */;
+			path = InventoryManagement.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B0F91AE243B221700CA5394 /* Project object */;
+}

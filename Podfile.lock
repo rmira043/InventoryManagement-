@@ -1,0 +1,20 @@
+PODS:
+  - BarcodeScanner (4.1.3)
+  - TPKeyboardAvoidingSwift (3.2)
+
+DEPENDENCIES:
+  - BarcodeScanner
+  - TPKeyboardAvoidingSwift
+
+SPEC REPOS:
+  trunk:
+    - BarcodeScanner
+    - TPKeyboardAvoidingSwift
+
+SPEC CHECKSUMS:
+  BarcodeScanner: fce1ad2b3f28286b1ab5091fe0979789618bee27
+  TPKeyboardAvoidingSwift: ce1a75e0bc3af6b485f8bfa1d0a8320cfc565851
+
+PODFILE CHECKSUM: e76939a241d69273a6edba40ff24ff49066b903c
+
+COCOAPODS: 1.9.1

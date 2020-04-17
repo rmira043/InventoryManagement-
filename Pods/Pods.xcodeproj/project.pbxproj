@@ -1,0 +1,1101 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05519B9665090CCFB57090658A42AC99 /* FocusViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD86C1966A7F2F1939CAF6519AB8E22 /* FocusViewType.swift */; };
+		09BEA257F62431C7B5B565E8FA0BF5B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		0B087B29DEC4C87B8313DD679515DB1F /* flashOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76122A97629D90E6E36646C1BA5AE624 /* flashOff@3x.png */; };
+		15B6347CF50683E7C41F48FF0AD9A393 /* TorchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F1BCFF2E1855D809ADA39B81C134F8 /* TorchMode.swift */; };
+		17618A4AA27551F8F40AACCF19CD1599 /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32322D58D69D273D38F95FEE7CA62735 /* HeaderViewController.swift */; };
+		17E8F41AD1197DA7F604BC2B0DDC6FB6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE32199CCAC44E36436CFC88DB6E13A7 /* Localizable.strings */; };
+		1E15B18846FC5096D0C088546D99C7E2 /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A13620D37C5384DCF4E5A946F1CE32 /* NSLayoutConstraint+Extensions.swift */; };
+		28057A2E2FA6B6C70A01AC085FB81E65 /* Pods-InventoryManagement-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A40A04BA2EBCFDDE0767D0C74D37A63 /* Pods-InventoryManagement-dummy.m */; };
+		2D29B53D148CEFEEC09AD91339C3ACCF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64C5B7469032013EEA5C856DD386ED5 /* UIView+Extensions.swift */; };
+		3735B3A83402E2F5423C53FE23C48D60 /* Pods-InventoryManagement-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F953509E33EEDF6DCA3837C1C7E8930F /* Pods-InventoryManagement-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47C6FDD3E25D259665C8157A8D74250D /* Localization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */; };
+		48C8E5E0E2D23BEA61604383B9E0F10A /* TPKeyboardAvoidingSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 059DD3F4752712034025A082869991A5 /* TPKeyboardAvoidingSwift-dummy.m */; };
+		4CE7E0E266DD512C1267EEAD9DC1258A /* BarcodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0820491426E07CFEFB78EC7ACD629F3 /* BarcodeScanner-dummy.m */; };
+		50C90E4DF1433624D5805AD2DDC651D3 /* AVMetadataObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53D68554F05D93EA36FCE156F748B51 /* AVMetadataObject+Extensions.swift */; };
+		5357052101DABA8DA6F363DF4144EFD4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3414A91F74A0D760B6A394F3A1212CD /* CameraViewController.swift */; };
+		65E68E8FDBD28A1305BCFF919971DBE1 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369CFA37A56DD42481A5C14DF316388 /* State.swift */; };
+		65F589CDA610DC5F5100B39911A8AC8D /* BarcodeScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */; };
+		77049B4D68394D240853DF8EBE9BB42F /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD2D286DF06A99734EA3B83C95C2D24 /* Functions.swift */; };
+		8EF2805338469B87D08850B8BD5AAABB /* BarcodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8C5BA3DBC499C22EA18BD25AED9E4C5 /* BarcodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		925D6D3D62BE0243E63A34FE8A239DEE /* VideoPermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A1BBDE9CDCCAE344E8B6920AE522DE /* VideoPermissionService.swift */; };
+		93EAE51A99C3AF03107F89BDFA4F2A72 /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3CB4C54A8D26DF8963D83C8A4B3752 /* BarcodeScannerViewController.swift */; };
+		9413F49B96D1BDA38C55039C90AB5611 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4849FED0D1AAD5D6E16D89E6695E /* MessageViewController.swift */; };
+		9F3A78239F991CC24326C32701F32BD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		AC929DB86D6C32A3E9DAD482D703F02C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */; };
+		AEA4C449668277F5A67C436E4AD07889 /* cameraRotate@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F88B47B826744D10F24A66AA61BEA2D6 /* cameraRotate@3x.png */; };
+		AF8A2260E2E940DDF28FAECB7BC2F713 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B0ECD996BC177F66DE84593CDCE854 /* UIViewController+Extensions.swift */; };
+		B4F3C8C09F756663B160A62B049A0B2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */; };
+		B61B62C47C6633DA017401700EC95665 /* TPKeyboardAvoidingSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205BFD6DC24E87E905478E37F24FEADF /* TPKeyboardAvoidingSwift.swift */; };
+		C6BF330F96A7348251068F0046C2B202 /* TPKeyboardAvoidingSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDF3A799F0FAA10AEE716D057BCE53A /* TPKeyboardAvoidingSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D540EE5B5018B511633EB8CEEBB8BE9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */; };
+		DDF65C879E19115A4DA09F87120E321B /* flashOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F10880A319F772DDD93C8E94306071AE /* flashOn@3x.png */; };
+		E00918185837C26D360277A53C6BEC8F /* info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BFDF04CDBE3805FDB1B0B82788CFE7 /* info@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37FAC825F60F91F8544649E10E80EC3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E136446D8E897681981873306A783A;
+			remoteInfo = "BarcodeScanner-BarcodeScanner";
+		};
+		42455A3EC0976A29BDDE9F3B0134B29F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 997BD0C6C6E9A7EF79DD4AA760E75C8E;
+			remoteInfo = TPKeyboardAvoidingSwift;
+		};
+		6152CE4A85067C95D19416D31535EC57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D656AC88E303625E9AA42D19C21D75;
+			remoteInfo = BarcodeScanner;
+		};
+		9B060A121A5ABC1DA9A2EBAC8D6AF475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2598A00DF974C904143778EDC46CC0E5;
+			remoteInfo = "BarcodeScanner-Localization";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A37947CE4199C829112489D2CC15BE /* TPKeyboardAvoidingSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPKeyboardAvoidingSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		059DD3F4752712034025A082869991A5 /* TPKeyboardAvoidingSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoidingSwift-dummy.m"; sourceTree = "<group>"; };
+		0AED08D8A48910A0CE0F5CEB57AC54FB /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A40A04BA2EBCFDDE0767D0C74D37A63 /* Pods-InventoryManagement-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InventoryManagement-dummy.m"; sourceTree = "<group>"; };
+		1A43FE51F851931D8E31AFEB2E0C93AE /* BarcodeScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.debug.xcconfig; sourceTree = "<group>"; };
+		205BFD6DC24E87E905478E37F24FEADF /* TPKeyboardAvoidingSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TPKeyboardAvoidingSwift.swift; path = TPKeyboardAvoidingSwift/Classes/TPKeyboardAvoidingSwift.swift; sourceTree = "<group>"; };
+		20E23E623F6A6F951781D9B697FDD04F /* Pods-InventoryManagement-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InventoryManagement-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2685909B15CFFA99978E4D294E31007C /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2734D1DB4B8E42C4F873BBE52BACECC8 /* Pods-InventoryManagement.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InventoryManagement.modulemap"; sourceTree = "<group>"; };
+		2B23156E53968401295B062F648579CF /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32322D58D69D273D38F95FEE7CA62735 /* HeaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderViewController.swift; path = Sources/Controllers/HeaderViewController.swift; sourceTree = "<group>"; };
+		377DA314D13F5726BB064F9479B35E12 /* Pods-InventoryManagement-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InventoryManagement-frameworks.sh"; sourceTree = "<group>"; };
+		3D3CB4C54A8D26DF8963D83C8A4B3752 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarcodeScannerViewController.swift; path = Sources/Controllers/BarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		4369CFA37A56DD42481A5C14DF316388 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/DataStructures/State.swift; sourceTree = "<group>"; };
+		48A8588627A91754F90F246017D9A206 /* TPKeyboardAvoidingSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoidingSwift.release.xcconfig; sourceTree = "<group>"; };
+		4EEC9DA2816E42C63B35016605FBA69A /* ResourceBundle-Localization-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Localization-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		53D2011398FBBAD1A7D67402E6E0DB78 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		59F1BCFF2E1855D809ADA39B81C134F8 /* TorchMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TorchMode.swift; path = Sources/DataStructures/TorchMode.swift; sourceTree = "<group>"; };
+		641D9B0D05047C5527E3E643D686DB83 /* TPKeyboardAvoidingSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoidingSwift.debug.xcconfig; sourceTree = "<group>"; };
+		66A13620D37C5384DCF4E5A946F1CE32 /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extensions.swift"; path = "Sources/Extensions/NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
+		70B3CD0E34CEE3D7931312E4BEAB594F /* TPKeyboardAvoidingSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoidingSwift-prefix.pch"; sourceTree = "<group>"; };
+		74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Localization.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		752053C57008C31CB39B50F14B2EB5A9 /* Pods-InventoryManagement-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InventoryManagement-Info.plist"; sourceTree = "<group>"; };
+		76122A97629D90E6E36646C1BA5AE624 /* flashOff@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOff@3x.png"; path = "Images/flashOff@3x.png"; sourceTree = "<group>"; };
+		7A665833ED97F23D84F6ED43F482C616 /* Pods-InventoryManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InventoryManagement.release.xcconfig"; sourceTree = "<group>"; };
+		7CDF3A799F0FAA10AEE716D057BCE53A /* TPKeyboardAvoidingSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoidingSwift-umbrella.h"; sourceTree = "<group>"; };
+		80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		82B0ECD996BC177F66DE84593CDCE854 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "Sources/Extensions/UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		84B61440D8FFB6426BCA25DA47792A5D /* TPKeyboardAvoidingSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TPKeyboardAvoidingSwift-Info.plist"; sourceTree = "<group>"; };
+		8EF067A28D0F6B4A3E406160E2ED028B /* Pods-InventoryManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InventoryManagement.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A445252C971429852371D8D340575033 /* BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		A4E843C394B4B49969B1A51C2FD178A6 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pl-PL.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		A7BCEB65FCAA5A80EE47850CDE848AE5 /* Pods-InventoryManagement-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InventoryManagement-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA27181F56F32D7FB536D2822CCACFCA /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B0BFDF04CDBE3805FDB1B0B82788CFE7 /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "info@3x.png"; path = "Images/info@3x.png"; sourceTree = "<group>"; };
+		B426E4B952C3D095AB243E3425B0D911 /* BarcodeScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.release.xcconfig; sourceTree = "<group>"; };
+		B53D68554F05D93EA36FCE156F748B51 /* AVMetadataObject+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVMetadataObject+Extensions.swift"; path = "Sources/Extensions/AVMetadataObject+Extensions.swift"; sourceTree = "<group>"; };
+		B8C5BA3DBC499C22EA18BD25AED9E4C5 /* BarcodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-umbrella.h"; sourceTree = "<group>"; };
+		BCD2D286DF06A99734EA3B83C95C2D24 /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = Sources/Helpers/Functions.swift; sourceTree = "<group>"; };
+		C0820491426E07CFEFB78EC7ACD629F3 /* BarcodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BarcodeScanner-dummy.m"; sourceTree = "<group>"; };
+		C17E0A69C43325453D426E19A4D51BAB /* Pods_InventoryManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InventoryManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D53E85EA41EAB17B9EF9DCC9DF9EC1 /* TPKeyboardAvoidingSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPKeyboardAvoidingSwift.modulemap; sourceTree = "<group>"; };
+		CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5496619BE1CC0031A661401B60A4B /* BarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
+		E1A1BBDE9CDCCAE344E8B6920AE522DE /* VideoPermissionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoPermissionService.swift; path = Sources/Helpers/VideoPermissionService.swift; sourceTree = "<group>"; };
+		EAD6F5715A99D81AD42A9DE02D56D750 /* BarcodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BarcodeScanner.modulemap; sourceTree = "<group>"; };
+		F10880A319F772DDD93C8E94306071AE /* flashOn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOn@3x.png"; path = "Images/flashOn@3x.png"; sourceTree = "<group>"; };
+		F3414A91F74A0D760B6A394F3A1212CD /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Sources/Controllers/CameraViewController.swift; sourceTree = "<group>"; };
+		F64C5B7469032013EEA5C856DD386ED5 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Sources/Extensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		F80A4849FED0D1AAD5D6E16D89E6695E /* MessageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageViewController.swift; path = Sources/Controllers/MessageViewController.swift; sourceTree = "<group>"; };
+		F88B47B826744D10F24A66AA61BEA2D6 /* cameraRotate@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cameraRotate@3x.png"; path = "Images/cameraRotate@3x.png"; sourceTree = "<group>"; };
+		F953509E33EEDF6DCA3837C1C7E8930F /* Pods-InventoryManagement-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InventoryManagement-umbrella.h"; sourceTree = "<group>"; };
+		FCD86C1966A7F2F1939CAF6519AB8E22 /* FocusViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusViewType.swift; path = Sources/DataStructures/FocusViewType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D63117C20A9B14C9C2BF53F1CE68A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3A78239F991CC24326C32701F32BD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393030ED09644D4BCA071F639095B152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FFEC54737093509256ED36C36430EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D540EE5B5018B511633EB8CEEBB8BE9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		625E0E0CBF10B9C0878AEF34E097F397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0ED06BCB1ADD6130307FACC52150102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F3C8C09F756663B160A62B049A0B2E /* AVFoundation.framework in Frameworks */,
+				09BEA257F62431C7B5B565E8FA0BF5B0 /* Foundation.framework in Frameworks */,
+				AC929DB86D6C32A3E9DAD482D703F02C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF8010B600FC99A0DCA5086146A2B24B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		097CE305B495DC5A989B7DE2921E5661 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4D53E85EA41EAB17B9EF9DCC9DF9EC1 /* TPKeyboardAvoidingSwift.modulemap */,
+				059DD3F4752712034025A082869991A5 /* TPKeyboardAvoidingSwift-dummy.m */,
+				84B61440D8FFB6426BCA25DA47792A5D /* TPKeyboardAvoidingSwift-Info.plist */,
+				70B3CD0E34CEE3D7931312E4BEAB594F /* TPKeyboardAvoidingSwift-prefix.pch */,
+				7CDF3A799F0FAA10AEE716D057BCE53A /* TPKeyboardAvoidingSwift-umbrella.h */,
+				641D9B0D05047C5527E3E643D686DB83 /* TPKeyboardAvoidingSwift.debug.xcconfig */,
+				48A8588627A91754F90F246017D9A206 /* TPKeyboardAvoidingSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPKeyboardAvoidingSwift";
+			sourceTree = "<group>";
+		};
+		2D0F32AA4C26A0A8B3D66258FC99744E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */,
+				CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner.framework */,
+				74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */,
+				C17E0A69C43325453D426E19A4D51BAB /* Pods_InventoryManagement.framework */,
+				02A37947CE4199C829112489D2CC15BE /* TPKeyboardAvoidingSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38E2EB8EF6A2115FEE44D8853525BACB /* Pods-InventoryManagement */ = {
+			isa = PBXGroup;
+			children = (
+				2734D1DB4B8E42C4F873BBE52BACECC8 /* Pods-InventoryManagement.modulemap */,
+				20E23E623F6A6F951781D9B697FDD04F /* Pods-InventoryManagement-acknowledgements.markdown */,
+				A7BCEB65FCAA5A80EE47850CDE848AE5 /* Pods-InventoryManagement-acknowledgements.plist */,
+				1A40A04BA2EBCFDDE0767D0C74D37A63 /* Pods-InventoryManagement-dummy.m */,
+				377DA314D13F5726BB064F9479B35E12 /* Pods-InventoryManagement-frameworks.sh */,
+				752053C57008C31CB39B50F14B2EB5A9 /* Pods-InventoryManagement-Info.plist */,
+				F953509E33EEDF6DCA3837C1C7E8930F /* Pods-InventoryManagement-umbrella.h */,
+				8EF067A28D0F6B4A3E406160E2ED028B /* Pods-InventoryManagement.debug.xcconfig */,
+				7A665833ED97F23D84F6ED43F482C616 /* Pods-InventoryManagement.release.xcconfig */,
+			);
+			name = "Pods-InventoryManagement";
+			path = "Target Support Files/Pods-InventoryManagement";
+			sourceTree = "<group>";
+		};
+		3AAE0C82E57EC3BC960C8850B92EEC0C /* BarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				B53D68554F05D93EA36FCE156F748B51 /* AVMetadataObject+Extensions.swift */,
+				3D3CB4C54A8D26DF8963D83C8A4B3752 /* BarcodeScannerViewController.swift */,
+				F3414A91F74A0D760B6A394F3A1212CD /* CameraViewController.swift */,
+				FCD86C1966A7F2F1939CAF6519AB8E22 /* FocusViewType.swift */,
+				BCD2D286DF06A99734EA3B83C95C2D24 /* Functions.swift */,
+				32322D58D69D273D38F95FEE7CA62735 /* HeaderViewController.swift */,
+				F80A4849FED0D1AAD5D6E16D89E6695E /* MessageViewController.swift */,
+				66A13620D37C5384DCF4E5A946F1CE32 /* NSLayoutConstraint+Extensions.swift */,
+				4369CFA37A56DD42481A5C14DF316388 /* State.swift */,
+				59F1BCFF2E1855D809ADA39B81C134F8 /* TorchMode.swift */,
+				F64C5B7469032013EEA5C856DD386ED5 /* UIView+Extensions.swift */,
+				82B0ECD996BC177F66DE84593CDCE854 /* UIViewController+Extensions.swift */,
+				E1A1BBDE9CDCCAE344E8B6920AE522DE /* VideoPermissionService.swift */,
+				B10843C6D4A9BC1B28E4E46B662B546F /* Resources */,
+				F05616D0FF316682A49316CC8F2217DF /* Support Files */,
+			);
+			path = BarcodeScanner;
+			sourceTree = "<group>";
+		};
+		7FD2601D4B1DBB9FE777A3A66AA62635 /* TPKeyboardAvoidingSwift */ = {
+			isa = PBXGroup;
+			children = (
+				205BFD6DC24E87E905478E37F24FEADF /* TPKeyboardAvoidingSwift.swift */,
+				097CE305B495DC5A989B7DE2921E5661 /* Support Files */,
+			);
+			path = TPKeyboardAvoidingSwift;
+			sourceTree = "<group>";
+		};
+		9CE77E30BB50D2082E48A84ABE7A03BD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38E2EB8EF6A2115FEE44D8853525BACB /* Pods-InventoryManagement */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B10843C6D4A9BC1B28E4E46B662B546F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F88B47B826744D10F24A66AA61BEA2D6 /* cameraRotate@3x.png */,
+				76122A97629D90E6E36646C1BA5AE624 /* flashOff@3x.png */,
+				F10880A319F772DDD93C8E94306071AE /* flashOn@3x.png */,
+				B0BFDF04CDBE3805FDB1B0B82788CFE7 /* info@3x.png */,
+				EE32199CCAC44E36436CFC88DB6E13A7 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				E31341D5BFC125F5880685379B31973C /* Pods */,
+				2D0F32AA4C26A0A8B3D66258FC99744E /* Products */,
+				9CE77E30BB50D2082E48A84ABE7A03BD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8010B600FC99A0DCA5086146A2B24B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				53B01D02F648FC21D052A90B4A54D5A6 /* AVFoundation.framework */,
+				2C0DC440C4222F19B4AC6A39E66CFCFA /* Foundation.framework */,
+				80ED7A3D19C791675B92A5B47AAE4D58 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E31341D5BFC125F5880685379B31973C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AAE0C82E57EC3BC960C8850B92EEC0C /* BarcodeScanner */,
+				7FD2601D4B1DBB9FE777A3A66AA62635 /* TPKeyboardAvoidingSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F05616D0FF316682A49316CC8F2217DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD6F5715A99D81AD42A9DE02D56D750 /* BarcodeScanner.modulemap */,
+				C0820491426E07CFEFB78EC7ACD629F3 /* BarcodeScanner-dummy.m */,
+				A445252C971429852371D8D340575033 /* BarcodeScanner-Info.plist */,
+				DCB5496619BE1CC0031A661401B60A4B /* BarcodeScanner-prefix.pch */,
+				B8C5BA3DBC499C22EA18BD25AED9E4C5 /* BarcodeScanner-umbrella.h */,
+				1A43FE51F851931D8E31AFEB2E0C93AE /* BarcodeScanner.debug.xcconfig */,
+				B426E4B952C3D095AB243E3425B0D911 /* BarcodeScanner.release.xcconfig */,
+				53D2011398FBBAD1A7D67402E6E0DB78 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */,
+				4EEC9DA2816E42C63B35016605FBA69A /* ResourceBundle-Localization-BarcodeScanner-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BarcodeScanner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6A44AAFB920BCE75D7CA801BDEBCACA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BF330F96A7348251068F0046C2B202 /* TPKeyboardAvoidingSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7E0ABAC8B049BCBAE417D931AB2E3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF2805338469B87D08850B8BD5AAABB /* BarcodeScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3F3E131425E465EF7217D1B8AD7AD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3735B3A83402E2F5423C53FE23C48D60 /* Pods-InventoryManagement-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC23F97FDF1EB24F1E66BE6E3A89B72 /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */;
+			buildPhases = (
+				27E41EDCB6AF92800EA87BF878403294 /* Sources */,
+				625E0E0CBF10B9C0878AEF34E097F397 /* Frameworks */,
+				0BFDD3265361920127A2F57626AF1959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarcodeScanner-BarcodeScanner";
+			productName = "BarcodeScanner-BarcodeScanner";
+			productReference = A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7B7DB809EF077BA08E749AB58485ED /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */;
+			buildPhases = (
+				8EC3D7ADC4CA4BF5481AB17CFC2924E1 /* Sources */,
+				393030ED09644D4BCA071F639095B152 /* Frameworks */,
+				E632E95170E48CA47BE5223701FF9058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarcodeScanner-Localization";
+			productName = "BarcodeScanner-Localization";
+			productReference = 74F4D59B519920CD954D013FCD061B86 /* Localization.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 642163D3FC89EC04AC75ECACA0EB0E1E /* Build configuration list for PBXNativeTarget "BarcodeScanner" */;
+			buildPhases = (
+				DF7E0ABAC8B049BCBAE417D931AB2E3C /* Headers */,
+				7CD91FF8C2BDC9D965FAE883A9B165EF /* Sources */,
+				D0ED06BCB1ADD6130307FACC52150102 /* Frameworks */,
+				CB9615C2F10792A5095C961B1164C37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA49DFF793D46A8A335F4794A253E1BF /* PBXTargetDependency */,
+				3D7F8098D8954950220D00E9B05B2249 /* PBXTargetDependency */,
+			);
+			name = BarcodeScanner;
+			productName = BarcodeScanner;
+			productReference = CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		997BD0C6C6E9A7EF79DD4AA760E75C8E /* TPKeyboardAvoidingSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BDE9FF29B624AAF9C9BD1203C7C3D3D /* Build configuration list for PBXNativeTarget "TPKeyboardAvoidingSwift" */;
+			buildPhases = (
+				6A44AAFB920BCE75D7CA801BDEBCACA6 /* Headers */,
+				6CFF113D48E4C612E3C51B2D1067077C /* Sources */,
+				54FFEC54737093509256ED36C36430EE /* Frameworks */,
+				93F9813E8CAFB303C7263F96531930AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPKeyboardAvoidingSwift;
+			productName = TPKeyboardAvoidingSwift;
+			productReference = 02A37947CE4199C829112489D2CC15BE /* TPKeyboardAvoidingSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD43F8A49FE985B3967AF82D42FF79F1 /* Pods-InventoryManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A1E817D7FC07EB98E010C958E520EB8 /* Build configuration list for PBXNativeTarget "Pods-InventoryManagement" */;
+			buildPhases = (
+				EA3F3E131425E465EF7217D1B8AD7AD9 /* Headers */,
+				E170D0B24D3DC4FDD9F5069ED18DDB6B /* Sources */,
+				0D63117C20A9B14C9C2BF53F1CE68A10 /* Frameworks */,
+				0E73DB4F8C36D80C43602DBA50BB9C46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E06511AE0A06F80DFE8668FE28EF0FF /* PBXTargetDependency */,
+				B1ADFB0B352532781F5F2A75ED403B1D /* PBXTargetDependency */,
+			);
+			name = "Pods-InventoryManagement";
+			productName = "Pods-InventoryManagement";
+			productReference = C17E0A69C43325453D426E19A4D51BAB /* Pods_InventoryManagement.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				fr,
+				"pl-PL",
+				tr,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2D0F32AA4C26A0A8B3D66258FC99744E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */,
+				02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */,
+				2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */,
+				DD43F8A49FE985B3967AF82D42FF79F1 /* Pods-InventoryManagement */,
+				997BD0C6C6E9A7EF79DD4AA760E75C8E /* TPKeyboardAvoidingSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BFDD3265361920127A2F57626AF1959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA4C449668277F5A67C436E4AD07889 /* cameraRotate@3x.png in Resources */,
+				0B087B29DEC4C87B8313DD679515DB1F /* flashOff@3x.png in Resources */,
+				DDF65C879E19115A4DA09F87120E321B /* flashOn@3x.png in Resources */,
+				E00918185837C26D360277A53C6BEC8F /* info@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E73DB4F8C36D80C43602DBA50BB9C46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F9813E8CAFB303C7263F96531930AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9615C2F10792A5095C961B1164C37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F589CDA610DC5F5100B39911A8AC8D /* BarcodeScanner.bundle in Resources */,
+				47C6FDD3E25D259665C8157A8D74250D /* Localization.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E632E95170E48CA47BE5223701FF9058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E8F41AD1197DA7F604BC2B0DDC6FB6 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E41EDCB6AF92800EA87BF878403294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFF113D48E4C612E3C51B2D1067077C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C8E5E0E2D23BEA61604383B9E0F10A /* TPKeyboardAvoidingSwift-dummy.m in Sources */,
+				B61B62C47C6633DA017401700EC95665 /* TPKeyboardAvoidingSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD91FF8C2BDC9D965FAE883A9B165EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C90E4DF1433624D5805AD2DDC651D3 /* AVMetadataObject+Extensions.swift in Sources */,
+				4CE7E0E266DD512C1267EEAD9DC1258A /* BarcodeScanner-dummy.m in Sources */,
+				93EAE51A99C3AF03107F89BDFA4F2A72 /* BarcodeScannerViewController.swift in Sources */,
+				5357052101DABA8DA6F363DF4144EFD4 /* CameraViewController.swift in Sources */,
+				05519B9665090CCFB57090658A42AC99 /* FocusViewType.swift in Sources */,
+				77049B4D68394D240853DF8EBE9BB42F /* Functions.swift in Sources */,
+				17618A4AA27551F8F40AACCF19CD1599 /* HeaderViewController.swift in Sources */,
+				9413F49B96D1BDA38C55039C90AB5611 /* MessageViewController.swift in Sources */,
+				1E15B18846FC5096D0C088546D99C7E2 /* NSLayoutConstraint+Extensions.swift in Sources */,
+				65E68E8FDBD28A1305BCFF919971DBE1 /* State.swift in Sources */,
+				15B6347CF50683E7C41F48FF0AD9A393 /* TorchMode.swift in Sources */,
+				2D29B53D148CEFEEC09AD91339C3ACCF /* UIView+Extensions.swift in Sources */,
+				AF8A2260E2E940DDF28FAECB7BC2F713 /* UIViewController+Extensions.swift in Sources */,
+				925D6D3D62BE0243E63A34FE8A239DEE /* VideoPermissionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC3D7ADC4CA4BF5481AB17CFC2924E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E170D0B24D3DC4FDD9F5069ED18DDB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28057A2E2FA6B6C70A01AC085FB81E65 /* Pods-InventoryManagement-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D7F8098D8954950220D00E9B05B2249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BarcodeScanner-Localization";
+			target = 2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */;
+			targetProxy = 9B060A121A5ABC1DA9A2EBAC8D6AF475 /* PBXContainerItemProxy */;
+		};
+		4E06511AE0A06F80DFE8668FE28EF0FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BarcodeScanner;
+			target = 39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */;
+			targetProxy = 6152CE4A85067C95D19416D31535EC57 /* PBXContainerItemProxy */;
+		};
+		B1ADFB0B352532781F5F2A75ED403B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPKeyboardAvoidingSwift;
+			target = 997BD0C6C6E9A7EF79DD4AA760E75C8E /* TPKeyboardAvoidingSwift */;
+			targetProxy = 42455A3EC0976A29BDDE9F3B0134B29F /* PBXContainerItemProxy */;
+		};
+		FA49DFF793D46A8A335F4794A253E1BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BarcodeScanner-BarcodeScanner";
+			target = 02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */;
+			targetProxy = 37FAC825F60F91F8544649E10E80EC3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE32199CCAC44E36436CFC88DB6E13A7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2685909B15CFFA99978E4D294E31007C /* Localizable.strings */,
+				AA27181F56F32D7FB536D2822CCACFCA /* Localizable.strings */,
+				0AED08D8A48910A0CE0F5CEB57AC54FB /* Localizable.strings */,
+				A4E843C394B4B49969B1A51C2FD178A6 /* Localizable.strings */,
+				2B23156E53968401295B062F648579CF /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		255D9F66C63972FE6DC11B4CF1AE4DBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A43FE51F851931D8E31AFEB2E0C93AE /* BarcodeScanner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		42AECB47504741DD02DD12B7DC0716BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641D9B0D05047C5527E3E643D686DB83 /* TPKeyboardAvoidingSwift.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoidingSwift/TPKeyboardAvoidingSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPKeyboardAvoidingSwift/TPKeyboardAvoidingSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TPKeyboardAvoidingSwift/TPKeyboardAvoidingSwift.modulemap";
+				PRODUCT_MODULE_NAME = TPKeyboardAvoidingSwift;
+				PRODUCT_NAME = TPKeyboardAvoidingSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45C7ACC3D7131DB0BD68EB8D9EC01497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B426E4B952C3D095AB243E3425B0D911 /* BarcodeScanner.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4827179F040D8A60B45A883E59D4A33E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A43FE51F851931D8E31AFEB2E0C93AE /* BarcodeScanner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		50893ED2F786A46F737867AEBC494ADF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B426E4B952C3D095AB243E3425B0D911 /* BarcodeScanner.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
+				PRODUCT_MODULE_NAME = BarcodeScanner;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88497E77013AFA1198E74CA60E35E829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A665833ED97F23D84F6ED43F482C616 /* Pods-InventoryManagement.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InventoryManagement/Pods-InventoryManagement-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InventoryManagement/Pods-InventoryManagement.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B27F0889E21F187BC5114C2526DF84E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A8588627A91754F90F246017D9A206 /* TPKeyboardAvoidingSwift.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoidingSwift/TPKeyboardAvoidingSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPKeyboardAvoidingSwift/TPKeyboardAvoidingSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TPKeyboardAvoidingSwift/TPKeyboardAvoidingSwift.modulemap";
+				PRODUCT_MODULE_NAME = TPKeyboardAvoidingSwift;
+				PRODUCT_NAME = TPKeyboardAvoidingSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8F076C1F4398F1EEDDBE764C35EEB59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A43FE51F851931D8E31AFEB2E0C93AE /* BarcodeScanner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
+				PRODUCT_MODULE_NAME = BarcodeScanner;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E63E02564D70D5597059A36F45894CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B426E4B952C3D095AB243E3425B0D911 /* BarcodeScanner.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E81CAB524347B749C687092E5DCC2E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF067A28D0F6B4A3E406160E2ED028B /* Pods-InventoryManagement.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InventoryManagement/Pods-InventoryManagement-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InventoryManagement/Pods-InventoryManagement.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A1E817D7FC07EB98E010C958E520EB8 /* Build configuration list for PBXNativeTarget "Pods-InventoryManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81CAB524347B749C687092E5DCC2E10 /* Debug */,
+				88497E77013AFA1198E74CA60E35E829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC23F97FDF1EB24F1E66BE6E3A89B72 /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4827179F040D8A60B45A883E59D4A33E /* Debug */,
+				45C7ACC3D7131DB0BD68EB8D9EC01497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BDE9FF29B624AAF9C9BD1203C7C3D3D /* Build configuration list for PBXNativeTarget "TPKeyboardAvoidingSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AECB47504741DD02DD12B7DC0716BB /* Debug */,
+				B27F0889E21F187BC5114C2526DF84E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7B7DB809EF077BA08E749AB58485ED /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255D9F66C63972FE6DC11B4CF1AE4DBA /* Debug */,
+				E63E02564D70D5597059A36F45894CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		642163D3FC89EC04AC75ECACA0EB0E1E /* Build configuration list for PBXNativeTarget "BarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8F076C1F4398F1EEDDBE764C35EEB59 /* Debug */,
+				50893ED2F786A46F737867AEBC494ADF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

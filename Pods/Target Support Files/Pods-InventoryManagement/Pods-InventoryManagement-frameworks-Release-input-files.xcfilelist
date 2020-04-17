@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-InventoryManagement/Pods-InventoryManagement-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework
+${BUILT_PRODUCTS_DIR}/TPKeyboardAvoidingSwift/TPKeyboardAvoidingSwift.framework

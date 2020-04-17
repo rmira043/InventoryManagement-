@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InventoryM" translatesAutoresizingMaskIntoConstraints="NO" id="5Ai-6o-H15">
+                                <rect key="frame" x="67.5" y="213.5" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="bdw-i1-9BA"/>
+                                    <constraint firstAttribute="height" constant="240" id="bnE-dt-KSm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inventory Manager" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L36-Kg-5gF">
+                                <rect key="frame" x="0.0" y="42" width="375" height="94"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="44"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="black-barcode" translatesAutoresizingMaskIntoConstraints="NO" id="EYE-Je-GfR">
+                                <rect key="frame" x="114" y="536" width="146" height="76"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="tintColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EYE-Je-GfR" firstAttribute="top" secondItem="5Ai-6o-H15" secondAttribute="bottom" constant="82" id="1uY-Ia-4fv"/>
+                            <constraint firstItem="L36-Kg-5gF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5yY-zY-BaK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EYE-Je-GfR" secondAttribute="bottom" constant="55" id="AM7-oY-L3S"/>
+                            <constraint firstItem="5Ai-6o-H15" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Kd1-Ea-01C"/>
+                            <constraint firstItem="5Ai-6o-H15" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="NdN-LW-OTl"/>
+                            <constraint firstItem="L36-Kg-5gF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="PdI-dK-qzq"/>
+                            <constraint firstItem="EYE-Je-GfR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="114" id="QDa-k7-FYG"/>
+                            <constraint firstItem="5Ai-6o-H15" firstAttribute="top" secondItem="L36-Kg-5gF" secondAttribute="bottom" constant="77.5" id="bcl-nu-JdS"/>
+                            <constraint firstItem="5Ai-6o-H15" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cWF-B8-VZ7"/>
+                            <constraint firstItem="5Ai-6o-H15" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="saj-x9-XUZ"/>
+                            <constraint firstItem="L36-Kg-5gF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uJa-WB-sGH"/>
+                            <constraint firstItem="EYE-Je-GfR" firstAttribute="centerX" secondItem="L36-Kg-5gF" secondAttribute="centerX" id="uYu-Ot-Dnd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="InventoryM" width="512" height="321"/>
+        <image name="black-barcode" width="512" height="334"/>
+    </resources>
+</document>
